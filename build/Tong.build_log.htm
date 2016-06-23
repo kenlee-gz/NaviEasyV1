@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ken Lee, YW, LIC=FQQKP-M8BZB-05ATY-I7S1E-4SU4Y-MHYV9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.73.0.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+E:\kuaipan\Prj_HT\Í²×Ó\src\tong.uvprojx
+Project File Date:  01/26/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'Tong'
+compiling main.cpp...
+compiling CommWifi.cpp...
+CommWifi.cpp(226): warning:  #1299-D: members and base-classes will be initialized in declaration order, not in member initialisation list order
+                  voice_chains_, sizeof(voice_chains_)), repeat_counter(), some_tiles_unwake()
+CommWifi.cpp(226): warning:  #1299-D: members and base-classes will be initialized in declaration order, not in member initialisation list order
+                  voice_chains_, sizeof(voice_chains_)), repeat_counter(), some_tiles_unwake()
+CommWifi.cpp(411): warning:  #128-D: loop is not reachable
+      while (!wifi_->SendCmdAndWaitReply("AT+WMODE=AP\r\n", 500) && tmr.read_ms() < 5000)
+CommWifi.cpp(372): warning:  #177-D: variable "cnt" was declared but never referenced
+      int cnt = 0;
+CommWifi.cpp(373): warning:  #177-D: variable "rx_buf" was declared but never referenced
+      char rx_buf[16];
+CommWifi.cpp: 5 warnings, 0 errors
+linking...
+Program Size: Code=35208 RO-data=2516 RW-data=332 ZI-data=6244  
+FromELF: creating hex file...
+".\build\Tong.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\kuaipan\Prj_HT\Í²×Ó\src\RTE
+  D:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

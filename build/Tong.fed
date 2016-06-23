@@ -1,0 +1,766 @@
+;#<FEEDBACK># ARM Linker, 5050041: Last Updated: Fri May 15 14:22:33 2015
+;VERSION 0.2
+;FILE BusOut.o
+_ZN4mbed6BusOut4readEv <= USED 0
+_ZN4mbed6BusOut5writeEi <= USED 0
+_ZN4mbed6BusOutC1EP7PinName <= USED 0
+_ZN4mbed6BusOutD0Ev <= USED 0
+_ZN4mbed6BusOutaSERS0_ <= USED 0
+_ZN4mbed6BusOutaSEi <= USED 0
+_ZN4mbed6BusOutcviEv <= USED 0
+__asm___10_BusOut_cpp_077eb2d1___Z7__REV16j <= USED 0
+__asm___10_BusOut_cpp_077eb2d1___Z7__REVSHi <= USED 0
+;FILE FileBase.o
+_ZN4mbed8FileBase3getEi <= USED 0
+_ZN4mbed8FileBase7getNameEv <= USED 0
+_ZN4mbed8FileBaseC1EPKcNS_8PathTypeE <= USED 0
+_ZN4mbed8FileBaseD0Ev <= USED 0
+_ZN4mbed8FileBaseD1Ev <= USED 0
+__asm___12_FileBase_cpp_db7ac688___Z7__REV16j <= USED 0
+__asm___12_FileBase_cpp_db7ac688___Z7__REVSHi <= USED 0
+;FILE FilePath.o
+_ZN4mbed8FilePath12isFileSystemEv <= USED 0
+__asm___12_FilePath_cpp_fca239a6___Z7__REV16j <= USED 0
+__asm___12_FilePath_cpp_fca239a6___Z7__REVSHi <= USED 0
+;FILE FileSystemLike.o
+_ZN4mbed14FileSystemLike7opendirEv <= USED 0
+_ZN4mbed14FileSystemLikeC2EPKc <= USED 0
+_ZN4mbed14FileSystemLikeD0Ev <= USED 0
+_ZN4mbed14FileSystemLikeD2Ev <= USED 0
+__asm___18_FileSystemLike_cpp_00c64ae0___Z7__REV16j <= USED 0
+__asm___18_FileSystemLike_cpp_00c64ae0___Z7__REVSHi <= USED 0
+;FILE FunctionPointer.o
+_ZN4mbed15FunctionPointer6attachEPFvvE <= USED 0
+;FILE InterruptIn.o
+_ZN4mbed11InterruptIn10enable_irqEv <= USED 0
+_ZN4mbed11InterruptIn11disable_irqEv <= USED 0
+_ZN4mbed11InterruptIn4fallEPFvvE <= USED 0
+_ZN4mbed11InterruptIn4modeE7PinMode <= USED 0
+_ZN4mbed11InterruptIn4readEv <= USED 0
+_ZN4mbed11InterruptIn4riseEPFvvE <= USED 0
+_ZN4mbed11InterruptInD0Ev <= USED 0
+_ZN4mbed11InterruptIncviEv <= USED 0
+__asm___15_InterruptIn_cpp_8263b240___Z7__REV16j <= USED 0
+__asm___15_InterruptIn_cpp_8263b240___Z7__REVSHi <= USED 0
+;FILE RawSerial.o
+_ZN4mbed9RawSerial4putsEPKc <= USED 0
+__asm___13_RawSerial_cpp_8ea795ea___Z7__REV16j <= USED 0
+__asm___13_RawSerial_cpp_8ea795ea___Z7__REVSHi <= USED 0
+;FILE SPI.o
+_ZN4mbed3SPI6aquireEv <= USED 0
+__asm___7_SPI_cpp_b03bd49a___Z7__REV16j <= USED 0
+__asm___7_SPI_cpp_b03bd49a___Z7__REVSHi <= USED 0
+;FILE SerialBase.o
+_ZN4mbed10SerialBase10send_breakEv <= USED 0
+_ZN4mbed10SerialBase6attachEPFvvENS0_7IrqTypeE <= USED 0
+_ZN4mbed10SerialBase6formatEiNS0_6ParityEi <= USED 0
+_ZN4mbed10SerialBase9writeableEv <= USED 0
+__asm___14_SerialBase_cpp_322e4eeb___Z7__REV16j <= USED 0
+__asm___14_SerialBase_cpp_322e4eeb___Z7__REVSHi <= USED 0
+;FILE Timer.o
+_ZN4mbed5Timer4readEv <= USED 0
+_ZN4mbed5Timer4stopEv <= USED 0
+_ZN4mbed5Timer7read_usEv <= USED 0
+_ZN4mbed5Timer9slicetimeEv <= USED 0
+_ZN4mbed5TimercvfEv <= USED 0
+__asm___9_Timer_cpp_f7c83b63___Z7__REV16j <= USED 0
+__asm___9_Timer_cpp_f7c83b63___Z7__REVSHi <= USED 0
+;FILE assert.o
+__asm___8_assert_c_8c050602____REV16 <= USED 0
+__asm___8_assert_c_8c050602____REVSH <= USED 0
+;FILE board.o
+__asm___7_board_c_4942b55d____REV16 <= USED 0
+__asm___7_board_c_4942b55d____REVSH <= USED 0
+;FILE cmsis_nvic.o
+NVIC_GetVector <= USED 0
+__asm___12_cmsis_nvic_c_3e7ad7ca____REV16 <= USED 0
+__asm___12_cmsis_nvic_c_3e7ad7ca____REVSH <= USED 0
+;FILE commrf.o
+_ZN6CommRF11ReceiveDataEv <= USED 0
+_ZN6CommRF13AutoReadTilesEv <= USED 0
+_ZN6CommRF13ReadAuxDeviceEv <= USED 0
+_ZN6CommRF15ReadTilesAroundEhP10TileAround <= USED 0
+_ZN6CommRF7CalcCrcEPKhh <= USED 0
+__asm___10_CommRF_cpp_4ee6f342___Z7__REV16j <= USED 0
+__asm___10_CommRF_cpp_4ee6f342___Z7__REVSHi <= USED 0
+;FILE commwifi.o
+_ZN8CommWifi11SendToPhoneEPKh <= USED 0
+_ZN8CommWifi14isValidCommandEh <= USED 0
+_ZN8CommWifi17HandleLinkFailureEv <= USED 0
+_ZN8CommWifi22SendWakeupTilesToPhoneEv <= USED 0
+_ZN8CommWifi7CalcCrcEPKh <= USED 0
+_ZN8CommWifi7CalcCrcEPKhi <= USED 0
+_ZN8CommWifi7GetSsidEv <= USED 0
+_ZNK8CommWifi14GetWakeupCountEv <= USED 0
+__asm___12_CommWifi_cpp_ssids___Z7__REV16j <= USED 0
+__asm___12_CommWifi_cpp_ssids___Z7__REVSHi <= USED 0
+;FILE error.o
+__asm___7_error_c_4942b55d____REV16 <= USED 0
+__asm___7_error_c_4942b55d____REVSH <= USED 0
+;FILE exit.o
+__asm___6_exit_c_exit____REV16 <= USED 0
+__asm___6_exit_c_exit____REVSH <= USED 0
+;FILE gpio.o
+__asm___6_gpio_c_de692169____REV16 <= USED 0
+__asm___6_gpio_c_de692169____REVSH <= USED 0
+gpio_init_in_ex <= USED 0
+gpio_init_inout <= USED 0
+gpio_init_out_ex <= USED 0
+;FILE gpio_api.o
+__asm___10_gpio_api_c_gpio_set____REV16 <= USED 0
+__asm___10_gpio_api_c_gpio_set____REVSH <= USED 0
+gpio_set <= USED 0
+;FILE gpio_irq_api.o
+__asm___14_gpio_irq_api_c_d77ea513____REV16 <= USED 0
+__asm___14_gpio_irq_api_c_d77ea513____REVSH <= USED 0
+gpio_irq_disable <= USED 0
+gpio_irq_enable <= USED 0
+gpio_irq_set <= USED 0
+;FILE lt8910.o
+_ZN6LT891010BurstWriteEhPKhh <= USED 0
+_ZN6LT891010EnableRssiEv <= USED 0
+_ZN6LT891010GetRFPowerEv <= USED 0
+_ZN6LT891010SetRFPowerEh <= USED 0
+_ZN6LT891010writebytesEPKhh <= USED 0
+_ZN6LT891011DisableRssiEv <= USED 0
+_ZN6LT891011EnterRxModeEh <= USED 0
+_ZN6LT891011EnterTxModeEh <= USED 0
+_ZN6LT891011SetChipCtrlEt <= USED 0
+_ZN6LT891011SetSyncWordEPKh <= USED 0
+_ZN6LT89105DelayEi <= USED 0
+_ZN6LT89105writeEPKhh <= USED 0
+_ZN6LT89108ScanRssiEv <= USED 0
+__asm___10_LT8910_cpp_9cc40ad1___Z7__REV16j <= USED 0
+__asm___10_LT8910_cpp_9cc40ad1___Z7__REVSHi <= USED 0
+;FILE main.o
+_Z12IndicateVolti <= USED 0
+_Z13HandleRemoterv <= USED 0
+_Z13PowerOnDetectv <= USED 0
+_Z15ReceivedRFFramev <= USED 0
+_Z16HandleKeyProcessv <= USED 0
+_Z6clrwdtv <= USED 0
+_Z7ScanKeyv <= USED 0
+_Z8PowerOffv <= USED 0
+_ZN4mbed9DigitalIncviEv <= USED 0
+__asm___8_main_cpp_pc___Z7__REV16j <= USED 0
+__asm___8_main_cpp_pc___Z7__REVSHi <= USED 0
+;FILE mbed_overrides.o
+__asm___16_mbed_overrides_c_b4c07c8c____REV16 <= USED 0
+__asm___16_mbed_overrides_c_b4c07c8c____REVSH <= USED 0
+;FILE pinmap.o
+__asm___8_pinmap_c_9be230f5____REV16 <= USED 0
+__asm___8_pinmap_c_9be230f5____REVSH <= USED 0
+;FILE pinmap_common.o
+__asm___15_pinmap_common_c_1647ef0e____REV16 <= USED 0
+__asm___15_pinmap_common_c_1647ef0e____REVSH <= USED 0
+pinmap_find_peripheral <= USED 0
+;FILE retarget.o
+_ZN4mbed10FileHandle4flenEv <= USED 0
+_ZN4mbed10FileHandleD0Ev <= USED 0
+_ZN4mbed10FileHandleD2Ev <= USED 0
+__asm___12_retarget_cpp_d318b6ef___Z7__REV16j <= USED 0
+__asm___12_retarget_cpp_d318b6ef___Z7__REVSHi <= USED 0
+_sys_close <= USED 0
+_sys_command_string <= USED 0
+_sys_ensure <= USED 0
+_sys_flen <= USED 0
+_sys_istty <= USED 0
+_sys_read <= USED 0
+closedir <= USED 0
+mkdir <= USED 0
+opendir <= USED 0
+readdir <= USED 0
+remove <= USED 0
+rename <= USED 0
+rewinddir <= USED 0
+seekdir <= USED 0
+telldir <= USED 0
+tmpfile <= USED 0
+tmpnam <= USED 0
+;FILE serial_api.o
+__asm___12_serial_api_c_a4cba8ab____REV16 <= USED 0
+__asm___12_serial_api_c_a4cba8ab____REVSH <= USED 0
+serial_break_clear <= USED 0
+serial_break_set <= USED 0
+serial_clear <= USED 0
+serial_format <= USED 0
+serial_free <= USED 0
+serial_pinout_tx <= USED 0
+serial_writable <= USED 0
+;FILE spi_api.o
+__asm___9_spi_api_c_spi_init____REV16 <= USED 0
+__asm___9_spi_api_c_spi_init____REVSH <= USED 0
+spi_busy <= USED 0
+spi_free <= USED 0
+spi_slave_read <= USED 0
+spi_slave_receive <= USED 0
+spi_slave_write <= USED 0
+;FILE startup_stm32f030.o
+;FILE stm32f0xx_hal.o
+HAL_DeInit <= USED 0
+HAL_Delay <= USED 0
+HAL_DisableDBGStandbyMode <= USED 0
+HAL_DisableDBGStopMode <= USED 0
+HAL_EnableDBGStandbyMode <= USED 0
+HAL_EnableDBGStopMode <= USED 0
+HAL_GetDEVID <= USED 0
+HAL_GetHalVersion <= USED 0
+HAL_GetREVID <= USED 0
+HAL_MspDeInit <= USED 0
+HAL_ResumeTick <= USED 0
+HAL_SuspendTick <= USED 0
+__asm___15_stm32f0xx_hal_c_HAL_Init____REV16 <= USED 0
+__asm___15_stm32f0xx_hal_c_HAL_Init____REVSH <= USED 0
+;FILE stm32f0xx_hal_adc.o
+HAL_ADC_AnalogWDGConfig <= USED 0
+HAL_ADC_ConfigChannel <= USED 0
+HAL_ADC_ConvCpltCallback <= USED 0
+HAL_ADC_ConvHalfCpltCallback <= USED 0
+HAL_ADC_DeInit <= USED 0
+HAL_ADC_ErrorCallback <= USED 0
+HAL_ADC_GetError <= USED 0
+HAL_ADC_GetState <= USED 0
+HAL_ADC_GetValue <= USED 0
+HAL_ADC_IRQHandler <= USED 0
+HAL_ADC_Init <= USED 0
+HAL_ADC_LevelOutOfWindowCallback <= USED 0
+HAL_ADC_MspDeInit <= USED 0
+HAL_ADC_MspInit <= USED 0
+HAL_ADC_PollForConversion <= USED 0
+HAL_ADC_PollForEvent <= USED 0
+HAL_ADC_Start <= USED 0
+HAL_ADC_Start_DMA <= USED 0
+HAL_ADC_Start_IT <= USED 0
+HAL_ADC_Stop <= USED 0
+HAL_ADC_Stop_DMA <= USED 0
+HAL_ADC_Stop_IT <= USED 0
+__asm___19_stm32f0xx_hal_adc_c_52ef8f50____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_adc_c_52ef8f50____REVSH <= USED 0
+;FILE stm32f0xx_hal_adc_ex.o
+HAL_ADCEx_Calibration_Start <= USED 0
+__asm___22_stm32f0xx_hal_adc_ex_c_3613cd7f____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_adc_ex_c_3613cd7f____REVSH <= USED 0
+;FILE stm32f0xx_hal_can.o
+__asm___19_stm32f0xx_hal_can_c_54a9111e____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_can_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_cec.o
+__asm___19_stm32f0xx_hal_cec_c_54a9111e____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_cec_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_cortex.o
+HAL_NVIC_ClearPendingIRQ <= USED 0
+HAL_NVIC_DisableIRQ <= USED 0
+HAL_NVIC_EnableIRQ <= USED 0
+HAL_NVIC_GetPendingIRQ <= USED 0
+HAL_NVIC_GetPriority <= USED 0
+HAL_NVIC_SetPendingIRQ <= USED 0
+HAL_NVIC_SystemReset <= USED 0
+HAL_SYSTICK_CLKSourceConfig <= USED 0
+HAL_SYSTICK_Callback <= USED 0
+HAL_SYSTICK_IRQHandler <= USED 0
+__asm___22_stm32f0xx_hal_cortex_c_910ac087____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_cortex_c_910ac087____REVSH <= USED 0
+;FILE stm32f0xx_hal_crc.o
+HAL_CRC_Accumulate <= USED 0
+HAL_CRC_Calculate <= USED 0
+HAL_CRC_DeInit <= USED 0
+HAL_CRC_GetState <= USED 0
+HAL_CRC_Init <= USED 0
+HAL_CRC_MspDeInit <= USED 0
+HAL_CRC_MspInit <= USED 0
+__asm___19_stm32f0xx_hal_crc_c_14c421d9____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_crc_c_14c421d9____REVSH <= USED 0
+;FILE stm32f0xx_hal_crc_ex.o
+HAL_CRCEx_Init <= USED 0
+HAL_CRCEx_Input_Data_Reverse <= USED 0
+HAL_CRCEx_Output_Data_Reverse <= USED 0
+__asm___22_stm32f0xx_hal_crc_ex_c_9f5702de____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_crc_ex_c_9f5702de____REVSH <= USED 0
+;FILE stm32f0xx_hal_dac.o
+__asm___19_stm32f0xx_hal_dac_c_54a9111e____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_dac_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_dac_ex.o
+__asm___22_stm32f0xx_hal_dac_ex_c_54a9111e____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_dac_ex_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_dma.o
+HAL_DMA_Abort <= USED 0
+HAL_DMA_DeInit <= USED 0
+HAL_DMA_GetError <= USED 0
+HAL_DMA_GetState <= USED 0
+HAL_DMA_IRQHandler <= USED 0
+HAL_DMA_Init <= USED 0
+HAL_DMA_PollForTransfer <= USED 0
+HAL_DMA_Start <= USED 0
+HAL_DMA_Start_IT <= USED 0
+__asm___19_stm32f0xx_hal_dma_c_c25f65ec____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_dma_c_c25f65ec____REVSH <= USED 0
+;FILE stm32f0xx_hal_flash.o
+FLASH_PageErase <= USED 0
+FLASH_WaitForLastOperation <= USED 0
+HAL_FLASH_EndOfOperationCallback <= USED 0
+HAL_FLASH_GetError <= USED 0
+HAL_FLASH_IRQHandler <= USED 0
+HAL_FLASH_Lock <= USED 0
+HAL_FLASH_OB_Launch <= USED 0
+HAL_FLASH_OB_Lock <= USED 0
+HAL_FLASH_OB_Unlock <= USED 0
+HAL_FLASH_OperationErrorCallback <= USED 0
+HAL_FLASH_Program <= USED 0
+HAL_FLASH_Program_IT <= USED 0
+HAL_FLASH_Unlock <= USED 0
+__asm___21_stm32f0xx_hal_flash_c_48aa8f3e____REV16 <= USED 0
+__asm___21_stm32f0xx_hal_flash_c_48aa8f3e____REVSH <= USED 0
+;FILE stm32f0xx_hal_flash_ex.o
+HAL_FLASHEx_Erase <= USED 0
+HAL_FLASHEx_Erase_IT <= USED 0
+HAL_FLASHEx_OBErase <= USED 0
+HAL_FLASHEx_OBGetConfig <= USED 0
+HAL_FLASHEx_OBProgram <= USED 0
+__asm___24_stm32f0xx_hal_flash_ex_c_6648b60e____REV16 <= USED 0
+__asm___24_stm32f0xx_hal_flash_ex_c_6648b60e____REVSH <= USED 0
+;FILE stm32f0xx_hal_gpio.o
+HAL_GPIO_DeInit <= USED 0
+HAL_GPIO_EXTI_Callback <= USED 0
+HAL_GPIO_EXTI_IRQHandler <= USED 0
+HAL_GPIO_LockPin <= USED 0
+HAL_GPIO_ReadPin <= USED 0
+HAL_GPIO_TogglePin <= USED 0
+HAL_GPIO_WritePin <= USED 0
+__asm___20_stm32f0xx_hal_gpio_c_ea787061____REV16 <= USED 0
+__asm___20_stm32f0xx_hal_gpio_c_ea787061____REVSH <= USED 0
+;FILE stm32f0xx_hal_i2c.o
+HAL_I2C_DeInit <= USED 0
+HAL_I2C_ER_IRQHandler <= USED 0
+HAL_I2C_EV_IRQHandler <= USED 0
+HAL_I2C_ErrorCallback <= USED 0
+HAL_I2C_GetError <= USED 0
+HAL_I2C_GetState <= USED 0
+HAL_I2C_Init <= USED 0
+HAL_I2C_IsDeviceReady <= USED 0
+HAL_I2C_MasterRxCpltCallback <= USED 0
+HAL_I2C_MasterTxCpltCallback <= USED 0
+HAL_I2C_Master_Receive <= USED 0
+HAL_I2C_Master_Receive_DMA <= USED 0
+HAL_I2C_Master_Receive_IT <= USED 0
+HAL_I2C_Master_Transmit <= USED 0
+HAL_I2C_Master_Transmit_DMA <= USED 0
+HAL_I2C_Master_Transmit_IT <= USED 0
+HAL_I2C_MemRxCpltCallback <= USED 0
+HAL_I2C_MemTxCpltCallback <= USED 0
+HAL_I2C_Mem_Read <= USED 0
+HAL_I2C_Mem_Read_DMA <= USED 0
+HAL_I2C_Mem_Read_IT <= USED 0
+HAL_I2C_Mem_Write <= USED 0
+HAL_I2C_Mem_Write_DMA <= USED 0
+HAL_I2C_Mem_Write_IT <= USED 0
+HAL_I2C_MspDeInit <= USED 0
+HAL_I2C_MspInit <= USED 0
+HAL_I2C_SlaveRxCpltCallback <= USED 0
+HAL_I2C_SlaveTxCpltCallback <= USED 0
+HAL_I2C_Slave_Receive <= USED 0
+HAL_I2C_Slave_Receive_DMA <= USED 0
+HAL_I2C_Slave_Receive_IT <= USED 0
+HAL_I2C_Slave_Transmit <= USED 0
+HAL_I2C_Slave_Transmit_DMA <= USED 0
+HAL_I2C_Slave_Transmit_IT <= USED 0
+__asm___19_stm32f0xx_hal_i2c_c_0eb271f4____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_i2c_c_0eb271f4____REVSH <= USED 0
+;FILE stm32f0xx_hal_i2c_ex.o
+HAL_I2CEx_AnalogFilter_Config <= USED 0
+HAL_I2CEx_DigitalFilter_Config <= USED 0
+HAL_I2CEx_DisableWakeUp <= USED 0
+HAL_I2CEx_EnableWakeUp <= USED 0
+__asm___22_stm32f0xx_hal_i2c_ex_c_d2217fc9____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_i2c_ex_c_d2217fc9____REVSH <= USED 0
+;FILE stm32f0xx_hal_i2s.o
+__asm___19_stm32f0xx_hal_i2s_c_54a9111e____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_i2s_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_irda.o
+__asm___20_stm32f0xx_hal_irda_c_54a9111e____REV16 <= USED 0
+__asm___20_stm32f0xx_hal_irda_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_iwdg.o
+HAL_IWDG_GetState <= USED 0
+HAL_IWDG_Init <= USED 0
+HAL_IWDG_MspInit <= USED 0
+HAL_IWDG_Refresh <= USED 0
+HAL_IWDG_Start <= USED 0
+__asm___20_stm32f0xx_hal_iwdg_c_a5fb4147____REV16 <= USED 0
+__asm___20_stm32f0xx_hal_iwdg_c_a5fb4147____REVSH <= USED 0
+;FILE stm32f0xx_hal_pcd.o
+__asm___19_stm32f0xx_hal_pcd_c_54a9111e____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_pcd_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_pcd_ex.o
+__asm___22_stm32f0xx_hal_pcd_ex_c_54a9111e____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_pcd_ex_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_pwr.o
+HAL_PWR_DeInit <= USED 0
+HAL_PWR_DisableBkUpAccess <= USED 0
+HAL_PWR_DisableWakeUpPin <= USED 0
+HAL_PWR_EnableBkUpAccess <= USED 0
+HAL_PWR_EnableWakeUpPin <= USED 0
+HAL_PWR_EnterSLEEPMode <= USED 0
+HAL_PWR_EnterSTANDBYMode <= USED 0
+HAL_PWR_EnterSTOPMode <= USED 0
+__asm___19_stm32f0xx_hal_pwr_c_f2cfe8be____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_pwr_c_f2cfe8be____REVSH <= USED 0
+;FILE stm32f0xx_hal_pwr_ex.o
+__asm___22_stm32f0xx_hal_pwr_ex_c_54a9111e____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_pwr_ex_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_rcc.o
+HAL_RCC_CCSCallback <= USED 0
+HAL_RCC_DeInit <= USED 0
+HAL_RCC_DisableCSS <= USED 0
+HAL_RCC_EnableCSS <= USED 0
+HAL_RCC_GetClockConfig <= USED 0
+HAL_RCC_GetOscConfig <= USED 0
+HAL_RCC_MCOConfig <= USED 0
+HAL_RCC_NMI_IRQHandler <= USED 0
+__asm___19_stm32f0xx_hal_rcc_c_c7d3f187____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_rcc_c_c7d3f187____REVSH <= USED 0
+;FILE stm32f0xx_hal_rcc_ex.o
+HAL_RCCEx_GetPeriphCLKConfig <= USED 0
+HAL_RCCEx_PeriphCLKConfig <= USED 0
+__asm___22_stm32f0xx_hal_rcc_ex_c_d5d75a56____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_rcc_ex_c_d5d75a56____REVSH <= USED 0
+;FILE stm32f0xx_hal_rtc.o
+HAL_RTC_AlarmAEventCallback <= USED 0
+HAL_RTC_AlarmIRQHandler <= USED 0
+HAL_RTC_DeInit <= USED 0
+HAL_RTC_DeactivateAlarm <= USED 0
+HAL_RTC_GetAlarm <= USED 0
+HAL_RTC_GetDate <= USED 0
+HAL_RTC_GetState <= USED 0
+HAL_RTC_GetTime <= USED 0
+HAL_RTC_Init <= USED 0
+HAL_RTC_MspDeInit <= USED 0
+HAL_RTC_MspInit <= USED 0
+HAL_RTC_PollForAlarmAEvent <= USED 0
+HAL_RTC_SetAlarm <= USED 0
+HAL_RTC_SetAlarm_IT <= USED 0
+HAL_RTC_SetDate <= USED 0
+HAL_RTC_SetTime <= USED 0
+HAL_RTC_WaitForSynchro <= USED 0
+RTC_Bcd2ToByte <= USED 0
+RTC_ByteToBcd2 <= USED 0
+RTC_EnterInitMode <= USED 0
+__asm___19_stm32f0xx_hal_rtc_c_c7052556____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_rtc_c_c7052556____REVSH <= USED 0
+;FILE stm32f0xx_hal_rtc_ex.o
+HAL_RTCEx_DeactivateCalibrationOutPut <= USED 0
+HAL_RTCEx_DeactivateRefClock <= USED 0
+HAL_RTCEx_DeactivateTamper <= USED 0
+HAL_RTCEx_DeactivateTimeStamp <= USED 0
+HAL_RTCEx_DisableBypassShadow <= USED 0
+HAL_RTCEx_EnableBypassShadow <= USED 0
+HAL_RTCEx_GetTimeStamp <= USED 0
+HAL_RTCEx_PollForTamper1Event <= USED 0
+HAL_RTCEx_PollForTamper2Event <= USED 0
+HAL_RTCEx_PollForTimeStampEvent <= USED 0
+HAL_RTCEx_SetCalibrationOutPut <= USED 0
+HAL_RTCEx_SetRefClock <= USED 0
+HAL_RTCEx_SetSmoothCalib <= USED 0
+HAL_RTCEx_SetSynchroShift <= USED 0
+HAL_RTCEx_SetTamper <= USED 0
+HAL_RTCEx_SetTamper_IT <= USED 0
+HAL_RTCEx_SetTimeStamp <= USED 0
+HAL_RTCEx_SetTimeStamp_IT <= USED 0
+HAL_RTCEx_Tamper1EventCallback <= USED 0
+HAL_RTCEx_Tamper2EventCallback <= USED 0
+HAL_RTCEx_TamperTimeStampIRQHandler <= USED 0
+HAL_RTCEx_TimeStampEventCallback <= USED 0
+__asm___22_stm32f0xx_hal_rtc_ex_c_7fcc3a7e____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_rtc_ex_c_7fcc3a7e____REVSH <= USED 0
+;FILE stm32f0xx_hal_smartcard.o
+__asm___25_stm32f0xx_hal_smartcard_c_54a9111e____REV16 <= USED 0
+__asm___25_stm32f0xx_hal_smartcard_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_smartcard_ex.o
+__asm___28_stm32f0xx_hal_smartcard_ex_c_54a9111e____REV16 <= USED 0
+__asm___28_stm32f0xx_hal_smartcard_ex_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_smbus.o
+HAL_SMBUS_DeInit <= USED 0
+HAL_SMBUS_DisableAlert_IT <= USED 0
+HAL_SMBUS_DisableListen_IT <= USED 0
+HAL_SMBUS_ER_IRQHandler <= USED 0
+HAL_SMBUS_EV_IRQHandler <= USED 0
+HAL_SMBUS_EnableAlert_IT <= USED 0
+HAL_SMBUS_ErrorCallback <= USED 0
+HAL_SMBUS_GetError <= USED 0
+HAL_SMBUS_GetState <= USED 0
+HAL_SMBUS_Init <= USED 0
+HAL_SMBUS_IsDeviceReady <= USED 0
+HAL_SMBUS_MasterRxCpltCallback <= USED 0
+HAL_SMBUS_MasterTxCpltCallback <= USED 0
+HAL_SMBUS_Master_Abort_IT <= USED 0
+HAL_SMBUS_Master_Receive_IT <= USED 0
+HAL_SMBUS_Master_Transmit_IT <= USED 0
+HAL_SMBUS_MspDeInit <= USED 0
+HAL_SMBUS_MspInit <= USED 0
+HAL_SMBUS_SlaveAddrCallback <= USED 0
+HAL_SMBUS_SlaveListenCpltCallback <= USED 0
+HAL_SMBUS_SlaveRxCpltCallback <= USED 0
+HAL_SMBUS_SlaveTxCpltCallback <= USED 0
+HAL_SMBUS_Slave_Listen_IT <= USED 0
+HAL_SMBUS_Slave_Receive_IT <= USED 0
+HAL_SMBUS_Slave_Transmit_IT <= USED 0
+__asm___21_stm32f0xx_hal_smbus_c_0d9f6733____REV16 <= USED 0
+__asm___21_stm32f0xx_hal_smbus_c_0d9f6733____REVSH <= USED 0
+;FILE stm32f0xx_hal_spi.o
+HAL_SPI_DeInit <= USED 0
+HAL_SPI_ErrorCallback <= USED 0
+HAL_SPI_GetState <= USED 0
+HAL_SPI_IRQHandler <= USED 0
+HAL_SPI_MspDeInit <= USED 0
+HAL_SPI_Receive <= USED 0
+HAL_SPI_Receive_DMA <= USED 0
+HAL_SPI_Receive_IT <= USED 0
+HAL_SPI_RxCpltCallback <= USED 0
+HAL_SPI_Transmit <= USED 0
+HAL_SPI_TransmitReceive <= USED 0
+HAL_SPI_TransmitReceive_DMA <= USED 0
+HAL_SPI_TransmitReceive_IT <= USED 0
+HAL_SPI_Transmit_DMA <= USED 0
+HAL_SPI_Transmit_IT <= USED 0
+HAL_SPI_TxCpltCallback <= USED 0
+HAL_SPI_TxRxCpltCallback <= USED 0
+__asm___19_stm32f0xx_hal_spi_c_5e7b22bd____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_spi_c_5e7b22bd____REVSH <= USED 0
+;FILE stm32f0xx_hal_tim.o
+HAL_TIM_Base_DeInit <= USED 0
+HAL_TIM_Base_GetState <= USED 0
+HAL_TIM_Base_MspDeInit <= USED 0
+HAL_TIM_Base_Start_DMA <= USED 0
+HAL_TIM_Base_Start_IT <= USED 0
+HAL_TIM_Base_Stop <= USED 0
+HAL_TIM_Base_Stop_DMA <= USED 0
+HAL_TIM_Base_Stop_IT <= USED 0
+HAL_TIM_ConfigClockSource <= USED 0
+HAL_TIM_ConfigOCrefClear <= USED 0
+HAL_TIM_ConfigTI1Input <= USED 0
+HAL_TIM_DMABurst_ReadStart <= USED 0
+HAL_TIM_DMABurst_ReadStop <= USED 0
+HAL_TIM_DMABurst_WriteStart <= USED 0
+HAL_TIM_DMABurst_WriteStop <= USED 0
+HAL_TIM_DMACaptureCplt <= USED 0
+HAL_TIM_DMADelayPulseCplt <= USED 0
+HAL_TIM_DMAError <= USED 0
+HAL_TIM_Encoder_DeInit <= USED 0
+HAL_TIM_Encoder_GetState <= USED 0
+HAL_TIM_Encoder_Init <= USED 0
+HAL_TIM_Encoder_MspDeInit <= USED 0
+HAL_TIM_Encoder_MspInit <= USED 0
+HAL_TIM_Encoder_Start <= USED 0
+HAL_TIM_Encoder_Start_DMA <= USED 0
+HAL_TIM_Encoder_Start_IT <= USED 0
+HAL_TIM_Encoder_Stop <= USED 0
+HAL_TIM_Encoder_Stop_DMA <= USED 0
+HAL_TIM_Encoder_Stop_IT <= USED 0
+HAL_TIM_ErrorCallback <= USED 0
+HAL_TIM_GenerateEvent <= USED 0
+HAL_TIM_IC_CaptureCallback <= USED 0
+HAL_TIM_IC_ConfigChannel <= USED 0
+HAL_TIM_IC_DeInit <= USED 0
+HAL_TIM_IC_GetState <= USED 0
+HAL_TIM_IC_Init <= USED 0
+HAL_TIM_IC_MspDeInit <= USED 0
+HAL_TIM_IC_MspInit <= USED 0
+HAL_TIM_IC_Start <= USED 0
+HAL_TIM_IC_Start_DMA <= USED 0
+HAL_TIM_IC_Start_IT <= USED 0
+HAL_TIM_IC_Stop <= USED 0
+HAL_TIM_IC_Stop_DMA <= USED 0
+HAL_TIM_IC_Stop_IT <= USED 0
+HAL_TIM_IRQHandler <= USED 0
+HAL_TIM_OC_ConfigChannel <= USED 0
+HAL_TIM_OC_DeInit <= USED 0
+HAL_TIM_OC_DelayElapsedCallback <= USED 0
+HAL_TIM_OC_GetState <= USED 0
+HAL_TIM_OC_Init <= USED 0
+HAL_TIM_OC_MspDeInit <= USED 0
+HAL_TIM_OC_MspInit <= USED 0
+HAL_TIM_OC_Start <= USED 0
+HAL_TIM_OC_Start_DMA <= USED 0
+HAL_TIM_OC_Start_IT <= USED 0
+HAL_TIM_OC_Stop <= USED 0
+HAL_TIM_OC_Stop_DMA <= USED 0
+HAL_TIM_OC_Stop_IT <= USED 0
+HAL_TIM_OnePulse_ConfigChannel <= USED 0
+HAL_TIM_OnePulse_DeInit <= USED 0
+HAL_TIM_OnePulse_GetState <= USED 0
+HAL_TIM_OnePulse_Init <= USED 0
+HAL_TIM_OnePulse_MspDeInit <= USED 0
+HAL_TIM_OnePulse_MspInit <= USED 0
+HAL_TIM_OnePulse_Start <= USED 0
+HAL_TIM_OnePulse_Start_IT <= USED 0
+HAL_TIM_OnePulse_Stop <= USED 0
+HAL_TIM_OnePulse_Stop_IT <= USED 0
+HAL_TIM_PWM_ConfigChannel <= USED 0
+HAL_TIM_PWM_DeInit <= USED 0
+HAL_TIM_PWM_GetState <= USED 0
+HAL_TIM_PWM_Init <= USED 0
+HAL_TIM_PWM_MspDeInit <= USED 0
+HAL_TIM_PWM_MspInit <= USED 0
+HAL_TIM_PWM_PulseFinishedCallback <= USED 0
+HAL_TIM_PWM_Start <= USED 0
+HAL_TIM_PWM_Start_DMA <= USED 0
+HAL_TIM_PWM_Start_IT <= USED 0
+HAL_TIM_PWM_Stop <= USED 0
+HAL_TIM_PWM_Stop_DMA <= USED 0
+HAL_TIM_PWM_Stop_IT <= USED 0
+HAL_TIM_PeriodElapsedCallback <= USED 0
+HAL_TIM_ReadCapturedValue <= USED 0
+HAL_TIM_SlaveConfigSynchronization <= USED 0
+HAL_TIM_SlaveConfigSynchronization_IT <= USED 0
+HAL_TIM_TriggerCallback <= USED 0
+TIM_CCxChannelCmd <= USED 0
+TIM_OC2_SetConfig <= USED 0
+TIM_TI1_SetConfig <= USED 0
+__asm___19_stm32f0xx_hal_tim_c_a9d95b52____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_tim_c_a9d95b52____REVSH <= USED 0
+;FILE stm32f0xx_hal_tim_ex.o
+HAL_TIMEx_BreakCallback <= USED 0
+HAL_TIMEx_CommutationCallback <= USED 0
+HAL_TIMEx_ConfigBreakDeadTime <= USED 0
+HAL_TIMEx_ConfigCommutationEvent <= USED 0
+HAL_TIMEx_ConfigCommutationEvent_DMA <= USED 0
+HAL_TIMEx_ConfigCommutationEvent_IT <= USED 0
+HAL_TIMEx_DMACommutationCplt <= USED 0
+HAL_TIMEx_HallSensor_DeInit <= USED 0
+HAL_TIMEx_HallSensor_GetState <= USED 0
+HAL_TIMEx_HallSensor_Init <= USED 0
+HAL_TIMEx_HallSensor_MspDeInit <= USED 0
+HAL_TIMEx_HallSensor_MspInit <= USED 0
+HAL_TIMEx_HallSensor_Start <= USED 0
+HAL_TIMEx_HallSensor_Start_DMA <= USED 0
+HAL_TIMEx_HallSensor_Start_IT <= USED 0
+HAL_TIMEx_HallSensor_Stop <= USED 0
+HAL_TIMEx_HallSensor_Stop_DMA <= USED 0
+HAL_TIMEx_HallSensor_Stop_IT <= USED 0
+HAL_TIMEx_MasterConfigSynchronization <= USED 0
+HAL_TIMEx_OCN_Start <= USED 0
+HAL_TIMEx_OCN_Start_DMA <= USED 0
+HAL_TIMEx_OCN_Start_IT <= USED 0
+HAL_TIMEx_OCN_Stop <= USED 0
+HAL_TIMEx_OCN_Stop_DMA <= USED 0
+HAL_TIMEx_OCN_Stop_IT <= USED 0
+HAL_TIMEx_OnePulseN_Start <= USED 0
+HAL_TIMEx_OnePulseN_Start_IT <= USED 0
+HAL_TIMEx_OnePulseN_Stop <= USED 0
+HAL_TIMEx_OnePulseN_Stop_IT <= USED 0
+HAL_TIMEx_PWMN_Start <= USED 0
+HAL_TIMEx_PWMN_Start_DMA <= USED 0
+HAL_TIMEx_PWMN_Start_IT <= USED 0
+HAL_TIMEx_PWMN_Stop <= USED 0
+HAL_TIMEx_PWMN_Stop_DMA <= USED 0
+HAL_TIMEx_PWMN_Stop_IT <= USED 0
+HAL_TIMEx_RemapConfig <= USED 0
+__asm___22_stm32f0xx_hal_tim_ex_c_e8ef3920____REV16 <= USED 0
+__asm___22_stm32f0xx_hal_tim_ex_c_e8ef3920____REVSH <= USED 0
+;FILE stm32f0xx_hal_tsc.o
+__asm___19_stm32f0xx_hal_tsc_c_54a9111e____REV16 <= USED 0
+__asm___19_stm32f0xx_hal_tsc_c_54a9111e____REVSH <= USED 0
+;FILE stm32f0xx_hal_uart.o
+HAL_HalfDuplex_EnableReceiver <= USED 0
+HAL_HalfDuplex_EnableTransmitter <= USED 0
+HAL_HalfDuplex_Init <= USED 0
+HAL_MultiProcessor_DisableMuteMode <= USED 0
+HAL_MultiProcessor_EnableMuteMode <= USED 0
+HAL_MultiProcessor_EnterMuteMode <= USED 0
+HAL_MultiProcessor_Init <= USED 0
+HAL_UART_DMAPause <= USED 0
+HAL_UART_DMAResume <= USED 0
+HAL_UART_DMAStop <= USED 0
+HAL_UART_DeInit <= USED 0
+HAL_UART_ErrorCallback <= USED 0
+HAL_UART_GetError <= USED 0
+HAL_UART_GetState <= USED 0
+HAL_UART_MspDeInit <= USED 0
+HAL_UART_Receive <= USED 0
+HAL_UART_Receive_DMA <= USED 0
+HAL_UART_Receive_IT <= USED 0
+HAL_UART_RxCpltCallback <= USED 0
+HAL_UART_RxHalfCpltCallback <= USED 0
+HAL_UART_Transmit <= USED 0
+HAL_UART_Transmit_DMA <= USED 0
+HAL_UART_Transmit_IT <= USED 0
+HAL_UART_TxCpltCallback <= USED 0
+HAL_UART_TxHalfCpltCallback <= USED 0
+UART_Receive_IT <= USED 0
+UART_Transmit_IT <= USED 0
+__asm___20_stm32f0xx_hal_uart_c_d497114f____REV16 <= USED 0
+__asm___20_stm32f0xx_hal_uart_c_d497114f____REVSH <= USED 0
+;FILE stm32f0xx_hal_uart_ex.o
+HAL_MultiProcessorEx_AddressLength_Set <= USED 0
+HAL_RS485Ex_Init <= USED 0
+HAL_UART_IRQHandler <= USED 0
+__asm___23_stm32f0xx_hal_uart_ex_c_ff179fc0____REV16 <= USED 0
+__asm___23_stm32f0xx_hal_uart_ex_c_ff179fc0____REVSH <= USED 0
+;FILE stm32f0xx_hal_usart.o
+HAL_USART_DMAPause <= USED 0
+HAL_USART_DMAResume <= USED 0
+HAL_USART_DMAStop <= USED 0
+HAL_USART_DeInit <= USED 0
+HAL_USART_ErrorCallback <= USED 0
+HAL_USART_GetError <= USED 0
+HAL_USART_GetState <= USED 0
+HAL_USART_IRQHandler <= USED 0
+HAL_USART_Init <= USED 0
+HAL_USART_MspDeInit <= USED 0
+HAL_USART_MspInit <= USED 0
+HAL_USART_Receive <= USED 0
+HAL_USART_Receive_DMA <= USED 0
+HAL_USART_Receive_IT <= USED 0
+HAL_USART_RxCpltCallback <= USED 0
+HAL_USART_RxHalfCpltCallback <= USED 0
+HAL_USART_Transmit <= USED 0
+HAL_USART_TransmitReceive <= USED 0
+HAL_USART_TransmitReceive_DMA <= USED 0
+HAL_USART_TransmitReceive_IT <= USED 0
+HAL_USART_Transmit_DMA <= USED 0
+HAL_USART_Transmit_IT <= USED 0
+HAL_USART_TxCpltCallback <= USED 0
+HAL_USART_TxHalfCpltCallback <= USED 0
+HAL_USART_TxRxCpltCallback <= USED 0
+__asm___21_stm32f0xx_hal_usart_c_32ae8742____REV16 <= USED 0
+__asm___21_stm32f0xx_hal_usart_c_32ae8742____REVSH <= USED 0
+;FILE stm32f0xx_hal_wwdg.o
+HAL_WWDG_DeInit <= USED 0
+HAL_WWDG_GetState <= USED 0
+HAL_WWDG_IRQHandler <= USED 0
+HAL_WWDG_Init <= USED 0
+HAL_WWDG_MspDeInit <= USED 0
+HAL_WWDG_MspInit <= USED 0
+HAL_WWDG_Refresh <= USED 0
+HAL_WWDG_Start <= USED 0
+HAL_WWDG_Start_IT <= USED 0
+HAL_WWDG_WakeupCallback <= USED 0
+__asm___20_stm32f0xx_hal_wwdg_c_c1f9d8a4____REV16 <= USED 0
+__asm___20_stm32f0xx_hal_wwdg_c_c1f9d8a4____REVSH <= USED 0
+;FILE sys.o
+__user_setup_stackheap <= USED 0
+;FILE system_stm32f0xx.o
+__asm___18_system_stm32f0xx_c_5d646a67____REV16 <= USED 0
+__asm___18_system_stm32f0xx_c_5d646a67____REVSH <= USED 0
+;FILE us_ticker.o
+__asm___11_us_ticker_c_3a65eeba____REV16 <= USED 0
+__asm___11_us_ticker_c_3a65eeba____REVSH <= USED 0
+set_compare <= USED 0
+;FILE us_ticker_api.o
+__asm___15_us_ticker_api_c_26018ab0____REV16 <= USED 0
+__asm___15_us_ticker_api_c_26018ab0____REVSH <= USED 0
+us_ticker_insert_event <= USED 0
+us_ticker_remove_event <= USED 0
+us_ticker_set_handler <= USED 0
+;FILE wait_api.o
+wait <= USED 0
+;FILE wifiobj.o
+_ZN7WifiObj11GetWifiModeEv <= USED 0
+_ZN7WifiObj11SetWifiModeENS_8WifiModeE <= USED 0
+_ZN7WifiObj13GetLinkStatusEv <= USED 0
+_ZN7WifiObj5ResetEv <= USED 0
+_ZN7WifiObj7SetEchoEb <= USED 0
+_ZN7WifiObj7SetSsidEPKc <= USED 0
+_ZN7WifiObj8ReadLineEPhhi <= USED 0
+__asm___11_WifiObj_cpp_a43e79e1___Z7__REV16j <= USED 0
+__asm___11_WifiObj_cpp_a43e79e1___Z7__REVSHi <= USED 0
+;FILE wt588d.o
+__asm___10_WT588D_cpp_e08d03cb___Z7__REV16j <= USED 0
+__asm___10_WT588D_cpp_e08d03cb___Z7__REVSHi <= USED 0

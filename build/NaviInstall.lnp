@@ -1,0 +1,63 @@
+--cpu Cortex-M0
+".\build\main.o"
+".\build\system_stm32f0xx.o"
+".\build\wifiobj.o"
+".\build\wt588d.o"
+".\build\commwifi.o"
+".\build\flashapp.o"
+".\build\bufferedserial.o"
+".\build\buffer.o"
+".\build\cc1101.o"
+".\build\voice.o"
+".\build\highpowerreader.o"
+".\build\cmsis_nvic.o"
+".\build\startup_stm32f030x8.o"
+--library_type=microlib --strict --scatter "mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx.sct"
+
+			  mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/board.o 
+			  mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/mbed_overrides.o 
+			  mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/sys.o
+			  mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/mbed.ar
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/retarget.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cortex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_irda.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dma.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_gpio.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_usart.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_iwdg.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cec.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_comp.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tsc.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2s.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_wwdg.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_can.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart_ex.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart.o
+              mbed/TARGET_NUCLEO_F030R8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smbus.o
+			 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\build\NaviInstall.map" -o .\build\NaviInstall.axf
